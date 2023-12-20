@@ -7,8 +7,7 @@ public class Chain : MonoBehaviour
     LineRenderer line;
     public Transform entrypoint;
     public Transform exitpoint;
-    [Header("SFX")]
-    [SerializeField] private AudioClip airwooshtrapSound;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +19,5 @@ public class Chain : MonoBehaviour
     {
         line.SetPosition(0, entrypoint.position);
         line.SetPosition(1, exitpoint.position);
-        SoundManager.instance.PlaySound(airwooshtrapSound);
     }
 }
