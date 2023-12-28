@@ -30660,11 +30660,11 @@ PrefabInstance:
       objectReference: {fileID: 1328531897}
     - target: {fileID: 8056055969570747484, guid: 5bc3c587f9bd08a4ea0ac4d3423ed7e9, type: 3}
       propertyPath: m_Size.y
-      value: 1.1982176
+      value: 0.9919183
       objectReference: {fileID: 0}
     - target: {fileID: 8056055969570747484, guid: 5bc3c587f9bd08a4ea0ac4d3423ed7e9, type: 3}
       propertyPath: m_Offset.y
-      value: -0.5773715
+      value: -0.68052113
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
